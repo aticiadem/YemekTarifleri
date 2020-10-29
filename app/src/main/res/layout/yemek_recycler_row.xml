@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/arkaplan"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/yemek_recylcler_imageView"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:maxWidth="300dp"
+            android:maxHeight="250dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/yemek_recylcler_isim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yemek Adı"
+            android:textColor="@color/siyah"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</layout>

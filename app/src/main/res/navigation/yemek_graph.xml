@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/yemek_graph"
+    app:startDestination="@id/yemekListesiFragment">
+
+    <fragment
+        android:id="@+id/yemekListesiFragment"
+        android:name="com.adematici.yemektarifleri.view.YemekListesiFragment"
+        android:label="YemekListesiFragment" >
+        <action
+            android:id="@+id/action_yemekListesiFragment_to_yemekDetayiFragment"
+            app:destination="@id/yemekDetayiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yemekDetayiFragment"
+        android:name="com.adematici.yemektarifleri.view.YemekDetayiFragment"
+        android:label="YemekDetayiFragment" >
+        <action
+            android:id="@+id/action_yemekDetayiFragment_to_yemekListesiFragment"
+            app:destination="@id/yemekListesiFragment" />
+        <argument
+            android:name="yemekId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>
