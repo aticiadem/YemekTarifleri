@@ -1,10 +1,10 @@
 # YemekTarifleri
 
 - İçinde yemek tariflerinin bulunduğu bir uygulamadır. 
-- Verileri Github profilimdeki YemekKitabiJSONVeriSeti adlı repositorie içinde bulunuyor. JSON ile veriler alınıyor.
+- Veriler Github profilimdeki YemekKitabiJSONVeriSeti adlı repositorie içinde bulunuyor. JSON ile veriler alınıyor.
 - MVVM kullanılarak mimari yapısı oluşturulmuştur.
 - RETROFIT Ve ROOM ile gerekli işlemler yapılmıştır.
-- Uygulama Göreselleri :
+- Uygulama Görselleri :
 
 
 ![1 - Kopya](https://user-images.githubusercontent.com/58858983/97622920-fd49e780-1a35-11eb-9f8a-40ef04e2baa8.jpg) 
